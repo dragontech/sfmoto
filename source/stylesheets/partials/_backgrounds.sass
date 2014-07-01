@@ -1,0 +1,6 @@
+$bgs: home, moto, piese, barci, contact, galerie, servicii
+
+@each $bg in $bgs
+  ##{$bg}
+    background: url(image_path('bkg-#{$bg}.png')) no-repeat fixed
+    background-size: cover
