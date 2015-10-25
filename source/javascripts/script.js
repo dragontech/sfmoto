@@ -1,4 +1,4 @@
-//= require js/jquery.flexslider-min
+//= require jquery.flexslider-min
 
 $(document).ready(function() {
   if(typeof console == 'undefined') {
